@@ -1,10 +1,9 @@
-
 """
 Problem: Best Time to Buy and Sell Stock III
 Link: https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/submissions/1937038084/
 Difficulty: Hard
 Topic: Dynamic Programming
-Date: 29-02-2026
+Date: 03-03-2026
 
 Approach: We can solve this problem using dynamic programming by keeping track of the maximum profit at each step for two transactions. We maintain four variables: `buy1`, `sell1`, `buy2`, and `sell2`.
 - `buy1` represents the maximum profit after the first buy, which is initialized to the negative of the first price.
