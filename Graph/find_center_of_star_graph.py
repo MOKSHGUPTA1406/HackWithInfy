@@ -3,7 +3,7 @@ Problem: Find Center of Star Graph
 Link: https://leetcode.com/problems/find-center-of-star-graph/submissions/1938805939/
 Difficulty: Easy
 Topic: Graph Theory
-Date: 05-03 -2026
+Date: 05-03-2026
 
 Approach: We can use a set to keep track of the visited nodes. We iterate through each edge and check if either of the nodes in the edge has already been visited. If we find a node that has already been visited, that node is the center of the star graph. If not, we add both nodes to the visited set.
 

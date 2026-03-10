@@ -3,7 +3,7 @@ Problem: Find if Path Exists in Graph
 Link: https://leetcode.com/problems/find-if-path-exists-in-graph/submissions/1939026507/
 Difficulty: Easy
 Topic: Graph Theory
-Date: 05-03 -2026
+Date: 05-03-2026
 
 Approach: We can use a breadth-first search (BFS) approach to determine if there is a path from the source node to the destination node. We first build an adjacency list representation of the graph from the given edges. Then, we initialize a queue for BFS and a set to keep track of visited nodes. We start from the source node and explore its neighbors. If we reach the destination node during our exploration, we return True. If we exhaust all possible nodes without finding the destination, we return False.
 
